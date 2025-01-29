@@ -15,11 +15,12 @@ function displayHome(){
     let time = checkDate();
 
     if(time > 0){
-        console.log(time);
+        console.log("before valen", time);
         $(".daysCounter").css("display", "block");
         $(".daysCounter :nth-child(1)").after(`<p class="days"> ${time} </p>`);
         
     }else{
+        console.log("after valen", time);
         $(".valentinesQuestion").css("display", "block");
     }
 }
