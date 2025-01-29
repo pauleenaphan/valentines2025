@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body{
@@ -25,7 +25,7 @@ body{
     background-color: rgb(218, 67, 92);
     width: fit-content;
     margin: 30px auto;
-    padding: 10px;
+    padding: 10px 40px;
     font-size: 100px;
     border-radius: 10px;
     font-weight: bold;
